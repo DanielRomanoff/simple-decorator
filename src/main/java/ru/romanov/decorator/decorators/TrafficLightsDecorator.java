@@ -21,7 +21,6 @@ public class TrafficLightsDecorator implements IDescriptionRailroadCrossing {
 
     @Override
     public String toString() {
-        final String TRAFFIC_LIGHTS = "Светофор на переезде";
-        return "- " + TRAFFIC_LIGHTS;
+        return "- Светофор на переезде";
     }
 }

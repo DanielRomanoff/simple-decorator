@@ -21,7 +21,6 @@ public class BarrierDecorator implements IDescriptionRailroadCrossing {
 
     @Override
     public String toString() {
-        final String BARRIER = "Автоматически срабатывающие препятствия";
-        return "- " + BARRIER;
+        return "- Автоматически срабатывающие препятствия";
     }
 }

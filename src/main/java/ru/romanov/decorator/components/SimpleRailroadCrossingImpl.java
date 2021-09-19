@@ -11,9 +11,7 @@ public class SimpleRailroadCrossingImpl implements IDescriptionRailroadCrossing 
 
     @Override
     public String toString() {
-        final String RAILS = "Рельсы";
-        final String BARRIER = "Шлагбаум";
-        return "- " + RAILS + "\n" +
-                "- " + BARRIER;
+        return "- Рельсы\n" +
+                "- Шлагбаум";
     }
 }
